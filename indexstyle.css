@@ -7,3 +7,10 @@ h1{
 body{
   background-color: #d1b96f;
 }
+h1:hover{
+  color:#c9d16f;
+  background-color: #d16f91;
+  font-size: 60px;
+  border: 5px solid #9c9bd4;
+  font-family: Arial;
+}
