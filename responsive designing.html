@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Designing!</title>
+  <meta name="viewport" content="width-device-width, inital-scale=1.0">
+  <style>
+   @media(min-width: 400px)
+  {
+    body{
+      background-color: #405b5c;
+    }
+    @media (max-width: 399px)
+    {
+      body{
+        background-color: #664e46;
+      }
+    }
+    #container{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #container > div {
+      background-color: indigo;
+      font-size: 20px;
+      margin: 20px;
+      padding: 20px;
+      width: 200px;
+    }
+    #grid{
+      background-color: #5c4040;
+      display: grid;
+      padding: 20px;
+      grid-column-gap:20px;
+      grid-row-gap:25px;
+      grid-template-columns:200px 200px 100px;
+    }
+    .grid-item{
+      background-color:#56c472;
+      font-size:22px;
+      text-align: center;
+      padding:20px;
+    }
+  </style>
+  </head>
+  <body>
+  <div id="container">
+  <div>1.sample</div>
+  <div>2.sample</div>
+  <div>3.sample</div>
+  <div>4sample</div>
+  <div>5sample</div>
+  <div>6sample</div>
+  <div>7sample</div>
+  <div>8sample</div>
+  <div>9sample</div>
+  <div>10sample</div>
+  <div>11sample</div>
+  <div>12sample</div>
+  <div id="grid">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+    <div class="grid-item">10</div>
+    <div class="grid-item">11</div>
+    <div class="grid-item">12</div>
+    <div class="grid-item">13</div>
+    <div class="grid-item">14</div>
+</body>
+</html>
